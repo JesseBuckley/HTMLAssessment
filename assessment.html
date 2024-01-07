@@ -19,27 +19,106 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <p><strong>Vestibulum</strong> ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed porttitor nulla quis dapibus sollicitudin. Integer et ullamcorper dolor. Fusce sapien tellus, luctus eu lorem id, maximus imperdiet felis. Duis vel feugiat urna, nec fringilla tellus. Duis sit amet pretium enim. Pellentesque accumsan sapien dignissim venenatis congue. Pellentesque posuere risus risus, vel pellentesque nisi ullamcorper non. Proin id magna ullamcorper, posuere quam quis, finibus dui. Quisque malesuada faucibus metus.</p></font>
 
 
-<h1>TABLE</h1>
-
 <table>
-  <tr>
-    <th>Scores by quarter</th>
+<thead><a style="margin-left: 70px">Scores by quarter</thead><br>
+<thead><a style="margin-left: 70px"><strong>First Half Second Half</strong></thead>
+
+  <tr><strong>
+    <th>Team Nam e</th>
+
+    <th>Q1</th>
+    <th>Q2</th>
+    <th>Q3</th>
+    <th>Q4</th>
+    <th>Final</th>
+</strong>
   </tr>
   <tr>
-    <td>Team Name</td>
-    <td>First Half Second Half</td>
-    <td>Final</td>
+    <td>Denver</td>
+    <td>7</td>
+    <td>3</td>
+    <td>0</td>
+    <td>7</td>
+    <td>17</td>
   </tr>
   <tr>
-    <td>Q1 Q2 Q3 Q4</td>
+    <td>Chicago</td>
+    <td>0</td>
+    <td>6</td>
+    <td>3</td>
+    <td>6</td>
+    <td>15</td>
   </tr>
   <tr>
-  <td>Denver 7 3 0 7 17</td>
-  <td>Chicago 0 6 3 6 15</td>
-  <td> <strong> Total 7 9 3 13 32</strong></td>
-</tr>
+    <td><a style="margin-left: 20px"><strong>Total</strong></td>
+    <td><strong>7</strong></td>
+    <td><strong>9</strong></td>
+    <td><strong>3</strong></td>
+    <td><strong>13</strong></td>
+    <td><strong>32</strong></td></a>
+  </tr>
 </table>
 
-<h1> LIST </h1>
-</body>
+
+<h1><strong>LIST</strong></h1>
+
+<ul>
+	<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/800px-Denver_Broncos_logo.svg.png" width="85" height="79">
+	<li><a href="https://en.wikipedia.org/wiki/Denver_Broncos">Denver Broncos</a></li>
+		<ul>
+			<li>Coach Gary Kubiak</li>
+			<li>QB</li>
+				<ol>
+					<li>Brock Osweiler</li>
+					<li>Trevor Siemian</li>
+					<li>Peyton Manning(injured)</li>
+				</ol></ul></ul>
+
+<ul>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Chicago_Bears_logo.svg/800px-Chicago_Bears_logo.svg.png" width="85" height="79">
+	<li><a href="https://en.wikipedia.org/wiki/Chicago_Bears">Chicago Bears</a></li>
+		<ul>
+			<li>Coach Gary Kubiak</li>
+			<li>QB</li>
+				<ol>
+					<li>Jay Cutler</li>
+					<li>David Foles</li>
+					</ol></ul></ul>
+
+<h1><strong>FORM</strong></h1>
+
+<form>
+<label for="first">First:</label>
+<input type="text" name="first" id="first">
+
+<label for="last">Last:</label>
+<input type="text" name="last" id="last"><br>
+
+<label for="dropdown">Favorite Sport:</label> 
+    <select name="dropdown" id="dropdown"> 
+        <option value="Soccer">Soccer</option> 
+        <option value="Football">Volleyball</option> 
+        <option value="Basketball">Baseball</option> 
+        <option value="Baseball">Basketball</option> 
+    </select><br>
+
+I have: 
+<label for="attended">Attended</label>
+<input type="checkbox" name="attended" id="attended">
+<label for="played">Played</label>
+<input type="checkbox" name="played" id="played">
+<label for="Coached">Coached</label>
+<input type="checkbox" name="Coached" id="Coached">
+<label for="Bet on">Bet on</label><br>
+
+For this sport I prefer the: 
+ <input type="radio" name="sport" id="Amatuer">
+ <label for="Amatuer">Amatuer</label>
+ <input type="radio" name="sport" id="College">
+ <label for="College">College</label>
+ <input type="radio" name="sport" id="Professional">
+ <label for="Professional">Professional</label><br>
+
+<input type="submit" value="Submit Query">
+</form>
 </html>
