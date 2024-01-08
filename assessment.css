@@ -14,3 +14,17 @@
 #scoreBoard td {
 	text-align: center;
 }
+
+#teamRoster {
+	list-style-type: square;
+}
+
+.hyperLink {
+	text-decoration: underline;
+	trasition: background-color 0.3s;
+}
+
+.hyperLink:hover {
+	background-color: #3498db;
+	text-decoration: none;
+}
