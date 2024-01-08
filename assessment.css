@@ -1,0 +1,16 @@
+.subjectHeader {
+	color: #11438f;
+}
+
+#scoreBoard {
+	border: 2px solid #b82204;
+}
+
+#scoreBoard th{
+	font-weight: bold;
+	color: #e07863;
+}
+
+#scoreBoard td {
+	text-align: center;
+}
